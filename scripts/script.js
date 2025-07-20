@@ -7,6 +7,6 @@ addEventListener("DOMContentLoaded", async function(){
     for (let song of songs) {
         html += `<li>${song.title} - ${song.artist}</li>`
     }
-    document.querySelector("#addedsong").innerHTML = html
+    document.querySelector("#list_of_songs").innerHTML = html
 
 })
