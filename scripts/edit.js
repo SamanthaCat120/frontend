@@ -28,6 +28,7 @@ addEventListener("DOMContentLoaded", async function(){
       popularity: document.querySelector("#popularity").value,
       genre: document.querySelector("#genre").value ? 
         document.querySelector("#genre").value.split(",") : []
+
    };
         
     // Send PUT request with JSON-encoded song to Music API
